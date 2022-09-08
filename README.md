@@ -23,7 +23,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][[linkedin-url](https://www.linkedin.com/in/justin-f-2a639510a/)]
+[![LinkedIn][linkedin-shield]][[https://www.linkedin.com/in/justin-f-2a639510a/]]
 
 
 
@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/linus.jpg" alt="Logo" width="80" height="80">
+    <img src="/linus.jpg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Ender-3 V2 Custom Firmware based on Marlin</h3>
