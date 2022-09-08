@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/justinfederico/Marlin">
     <img src="linus.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -42,7 +42,7 @@
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs (when they exist lol)»</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/github_username/repo_name">View Demo (there is none yet, lol2)</a>
   </p>
 </div>
 
