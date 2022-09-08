@@ -73,7 +73,6 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -85,7 +84,15 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This is a custom build of Marlin utilizing the nightly bugfix release as a template. It is customized to work on my Ender-3 V2 3D Printer from Creality, which has numerous upgrades which necessitated my foray into building my own firmware. This is always a work in progress, and is a personal build only meant to work on my specific machine, however I will list the alterations I have made to my printer regardless, since I understand there is a slim chance it may be used as a reference fro customization (proper documentation coming soon).
+
+* Ender-3 V2 Frame
+* Microswiss All-Metal Direct Drive Extruder
+* SKR mini E3 V3 motherboard
+* Stock Ender-3 V2 LCD with custom ribbon cable for interfacing with SKR mini E3 V3 (doesn't work without custom cable AND updating firmware on display)
+* Custom Satsana duct made with ASA, and Noctua 40x10mm 12V fan to reduce noise
+* [Gulfcoast Robotics Thermistor upgrade](https://www.amazon.com/gp/product/B08R3J6GJ3/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+* [POLISI3D Heater Cartridge Element upgrade](https://www.amazon.com/gp/product/B08CNCHC29/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,14 +100,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![C][C.js]][C-url]
+* [![C++][Cpp.js]][Cpp-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,55 +116,6 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -195,9 +147,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Justin Federico - [@justinfederic0](https://twitter.com/justinfederic0)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/justinfederico/Marlin](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
