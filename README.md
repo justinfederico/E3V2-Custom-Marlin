@@ -96,27 +96,17 @@ This is a custom build of Marlin utilizing the nightly bugfix release as a templ
 
 ### Built With
 
-* [![C][C.js]][C-url]
-* [![C++][Cpp.js]][Cpp-url]
+* Latest Marlin nightly bugfix release
+* AutoBuildMarlin extension in VS Code
+* PlatformIO in VS Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+To be clear, it is unlikely that this firmware will build and flash on any machine but my own without **SOME** modification. So, as such, do not build this firmware expecting it work perfectly unless your specifications are **EXACTLY** the same as my machine. Even then, it still may not work, as firmware, in my limited experience, is very touchy. However, feel free to ask questions, I will attempt to answer them to the best of my ability.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -145,7 +135,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Justin Federico - [@justinfederic0](https://twitter.com/justinfederic0)
 
-Project Link: [https://github.com/justinfederico/Marlin](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/justinfederico/Marlin](https://github.com/justinfederico/Marlin)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,9 +144,7 @@ Project Link: [https://github.com/justinfederico/Marlin](https://github.com/gith
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [The geniuses at Marlin who saved me from writing all of this myself](https://github.com/MarlinFirmware/Marlin)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
